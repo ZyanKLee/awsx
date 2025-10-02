@@ -11,7 +11,7 @@ It does not replace the AWS CLI, rather it is meant to work in conjunction with 
 
 ```
 awsx 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 
 USAGE:
     awsx [FLAGS] [OPTIONS] <SUBCOMMAND>
@@ -80,7 +80,7 @@ SUBCOMMANDS:
 
 ```
 awsx-create-stack 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Create a new stack with given parameters
 
 USAGE:
@@ -132,7 +132,7 @@ IAM permissions required:
 
 ```
 awsx-find-amis-inuse 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Identify all AMI-IDs that are being used within a region and account. For this the command analyzes all AWS resources
 where AMI-IDs can be referenced, and returns a complete list of the AMI-IDs in-use.
 
@@ -158,7 +158,7 @@ IAM permissions required:
 
 ```
 awsx-find-auto-scaling-group 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Find an auto scaling group based on its tags
 
 USAGE:
@@ -185,7 +185,7 @@ IAM permissions required:
 
 ```
 awsx-find-cloudfront-distribution 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Find a CloudFront distribution based on its tags
 
 USAGE:
@@ -213,7 +213,7 @@ IAM permissions required:
 
 ```
 awsx-find-db-cluster-snapshot 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Find a DB cluster snapshot based on its tags
 
 USAGE:
@@ -247,7 +247,7 @@ IAM permissions required:
 
 ```
 awsx-find-db-snapshot 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Find a DB snapshot based on its tags
 
 USAGE:
@@ -281,7 +281,7 @@ IAM permissions required:
 
 ```
 awsx-find-target-group 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Find a target group based on its tags
 
 USAGE:
@@ -312,7 +312,7 @@ IAM permissions required:
 
 ```
 awsx-identify-new-parameters 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Show all new parameters defined on the template, but not present on the stack. This subcommand does not create a change
 set, and performs only read-only actions.
 
@@ -343,7 +343,7 @@ IAM permissions required:
 
 ```
 awsx-override-parameters 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Update specified parameters on an existing stack, without updating the underlying template. Only the specified
 parameters will be updated, with all other parameters staying unchanged. NOTE: this will only create a change set that
 will not be automatically executed.
@@ -403,7 +403,7 @@ IAM permissions required:
 
 ```
 awsx-update-deployed-template 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Update an existing stack with a new template, without updating any parameters already defined on the stack. You can and
 have to supply parameters that are newly added. NOTE: this will only create a change set that will not be automatically
 executed.
@@ -477,7 +477,7 @@ IAM permissions required:
 
 ```
 awsx-verify-changes-compatible 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Verify that the deployed stack is compatible with the local changes.
 
 USAGE:
@@ -507,7 +507,7 @@ IAM permissions requried:
 
 ```
 awsx-verify-parameter-file 0.1.0
-KAISER+KRAFT EUROPA GmbH
+TAKKT Industrial & Packaging GmbH <webshop-devops@kaiserkraft-europa.de>
 Verify that the parameters defined in your parameters file match a currently deployed stack. If your parameter-file has
 parameters defined as `UsePreviousValue`, they will be considered equal to whatever is defined on the stack. This
 subcommand does not create a change set, and performs only read-only actions.
